@@ -1254,71 +1254,6 @@ Socials icons
     fill: var(--acceny-txt-cl);
 }
 
-
-.register-checkbox:checked+.register-icon .register-icon-uncheck {
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.reg-icon-uncheck {
-    fill: #188CE8;
-}
-
-
-
-.register-icon-check {
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.register-checkbox:checked+.register-icon .register-icon-check {
-    opacity: 1;
-}
-
-.register-form-agreement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 30px;
-}
-
-.register-checkbox:checked+.register-icon .register-icon-uncheck {
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.register-icon-check {
-    opacity: 0;
-    fill: #ff6c00;
-    transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.register-checkbox:checked+.register-icon .register-icon-check {
-    opacity: 1;
-}
-
-.register-form-agreement-text {
-    font-size: 14px;
-    user-select: none;
-    text-underline-position: under;
-    color: #757575;
-}
-
-.register-form-agreement-link {
-    color: #2196F3;
-    ;
-}
-
 .register-form-btn {
     display: block;
     align-items: center;
@@ -1359,3 +1294,61 @@ Socials icons
     background: var(--btn-bg-hover-cl);
 
 }
+
+/* reg-agreement*/
+
+.register-form-agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+
+
+.register-checkbox:checked+.register-icon .register-icon-uncheck {
+    opacity: 0;
+
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+
+}
+
+
+.register-icon-check {
+    fill: #7000FF;
+    background-color: var(--acceny-txt-cl);
+
+    opacity: 0;
+
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+
+}
+
+.register-checkbox:checked+.register-icon .register-icon-check {
+    opacity: 1;
+
+}
+
+
+.register-form-agreement-text {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+
+    user-select: none;
+}
+
+.register-form-agreement-link {
+    color: var(--acceny-txt-cl);
+    text-underline-position: under;
+
+}
+
+/* reg-agreement*/
