@@ -1295,19 +1295,20 @@ Socials icons
 
 }
 
-/* reg-agreement*/
+/* Form registration*/
 
 .register-form-agreement {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     margin-bottom: 25px;
 }
 
 
-
 .register-checkbox:checked+.register-icon .register-icon-uncheck {
     opacity: 0;
+    background-color: #188CE8;
 
     transition-property: opacity;
     transition-duration: 250ms;
@@ -1319,7 +1320,6 @@ Socials icons
 
 .register-icon-check {
     fill: #7000FF;
-    background-color: var(--acceny-txt-cl);
 
     opacity: 0;
 
@@ -1332,6 +1332,7 @@ Socials icons
 
 .register-checkbox:checked+.register-icon .register-icon-check {
     opacity: 1;
+    background-color: #188CE8;
 
 }
 
@@ -1349,6 +1350,14 @@ Socials icons
     color: var(--acceny-txt-cl);
     text-underline-position: under;
 
+}
+
+.regi {
+    background: #188CE8;
+}
+
+.regi-icon {
+    background-color: #188CE8;
 }
 
 /* reg-agreement*/
